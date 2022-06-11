@@ -12,5 +12,38 @@ header{
     max-width: 1200px;
     margin: 0 auto;
     margin-top: 10px;
+    background-color: blue;
 }
 
+.col p{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 35px;
+    padding-left: 5px;
+    padding-top: 255px;
+}
+
+a .portugal{
+    margin-top: 3px;
+    margin-left: -10px;
+}
+
+a .celtics{
+    max-width: 590px;
+    margin-top: 3px;
+    margin-left: -5px;
+}
+
+a .nadal{
+    max-width: 590px;
+    margin-top: 10px;
+    margin-left: -10px;
+}
+
+a .delfina{
+    max-width: 590px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
