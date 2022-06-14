@@ -6,6 +6,14 @@
 header{
     max-width: 1200px;
     margin: 0 auto;
+    
+}
+
+a.navbar-brand{
+    color: white !important;
+}
+.nav-link{
+    color: white !important;
 }
 
 .container{
@@ -13,17 +21,18 @@ header{
     margin: 0 auto;
     margin-top: 10px;
     /* background-color: blue; */
+    
 }
 
 .col p{
     position: absolute;
     color: rgb(255, 255, 255);
-    font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
-    font-size: 35px;
-    text-shadow: 1px 1px rgb(0, 0, 0);
+    font-size: 30px;
+    text-shadow: 3px 3px rgb(0, 0, 0);
     padding-left: 5px;
     padding-top: 255px;
+    
 }
 
 a .portugal{
@@ -52,4 +61,53 @@ a .delfina{
 
 .col  .segundo{
     margin-top: 25px;
+}
+
+.contenedorFooter{
+    background-color: black;
+}
+/* FOOTER - SUBCRIBIRSE */
+
+.contenedorFooter{
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+.suscribirse{
+   color: white;
+   text-align: center;
+}
+
+.nombre{
+    max-width: 288px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 300px;
+    border-color: rgb(30, 115, 48) ;
+}
+
+.apellido{
+    max-width: 288px;
+    border-radius: 10px;
+    border-color: rgb(30, 115, 48) ;
+    margin-top: 10px;
+}
+
+.email{
+    
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    border-color: rgb(30, 115, 48) ;
+}
+
+.btn-sub{
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 5px;
+    margin-left: 530px;
+    margin-bottom: 10px;
 }

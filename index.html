@@ -1,68 +1,96 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Desafio-Bootstrap</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
-  </head>
-  <body>
-    <header>
 
-        <nav class="navbar navbar-expand-lg bg-light">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">Home</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Fútbol</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active"  href="#">Tenis</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link active" href="#">
-                      Basket
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" href="#">Natacion</a>
-                  </li>
-                </ul>
-                <form class="d-flex" role="search">
-                  <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
-                  <button class="btn btn-outline-success" type="submit">Buscar</button>
-                </form>
-              </div>
-            </div>
-          </nav>
-    </header>  
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Desafio-Bootstrap</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+</head>
 
-    <main>
-        <div class="container">
-            <div class="row row-cols-2">
-                
-              <div class="col">
-                  <p><span>Portugal se impone ante Rep.Checa</span></p>
-                  <a href="#"><img src="img/CQHDXKQP5RB4XAJPEEWXBU36M4.jpg" alt="" class="portugal"></div></a>
-              <div class="col">
-                <p><span>Los Celtics igualan la serie</span></p>
-                  <a><img src="img/Celtics.jpg" alt="" class="celtics"></a></div>
-              <div class="col">
-                  <p class="segundo"><span>Record historico para Nadal</span></p>
-                  <a><img src="img/rafa.jpg" alt="" class="nadal"></a></div>
-              <div class="col">
-                <p class="segundo"><span>Pignatello da un paso al costado</span></p>
-                  <a><img src="img/pigna.jpg" alt="" class="delfina"></a></div>
-            </div>
-          </div>
-    </main>
-      
+<body>
+  <header>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-  </body>
+    <nav class="navbar navbar-expand-lg bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Home</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Fútbol</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Tenis</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link active" href="#">
+                Basket
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Natacion</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+            <button class="btn btn-outline-success" type="submit">Buscar</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <div class="container">
+      <div class="row row-cols-2">
+
+        <div class="col">
+          <p><span>Portugal se impone ante Rep.Checa</span></p>
+          <a href="#"><img src="img/CQHDXKQP5RB4XAJPEEWXBU36M4.jpg" alt="" class="portugal">
+        </div></a>
+        <div class="col">
+          <p><span>Los Celtics igualan la serie</span></p>
+          <a><img src="img/Celtics.jpg" alt="" class="celtics"></a>
+        </div>
+        <div class="col">
+          <p class="segundo"><span>Record historico para Nadal</span></p>
+          <a><img src="img/rafa.jpg" alt="" class="nadal"></a>
+        </div>
+        <div class="col">
+          <p class="segundo"><span>Pignatello da un paso al costado</span></p>
+          <a><img src="img/pigna.jpg" alt="" class="delfina"></a>
+        </div>
+      </div>
+    </div>
+  </main>
+  <!-- SUBCRIBIRSE -->
+  <footer>
+    <div class="contenedorFooter bg-dark">
+      <h2 class="suscribirse">SUSCRIBITE A NUESTRO NEWSLETTER</h2>
+      <div class="row">
+        <div class="col">
+          <input type="text" class="form-control nombre bg-light" placeholder="Nombre" aria-label="First name">
+        </div>
+        <div class="col">
+          <input type="text" class="form-control apellido bg-light" placeholder="Apellido" aria-label="Last name">
+        </div>
+        <div class="col-12">
+          <input type="email" class="form-control email bg-light" placeholder="Email" aria-label="Last name">
+        </div>
+      </div>
+          <button class="btn btn-outline-success btn-sub" type="submit">Suscribirme</button>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
