@@ -3,6 +3,8 @@
     padding: 0;
 }
 
+/* BARRA NAVEGACION - HEADER  */
+
 header{
     max-width: 1200px;
     margin: 0 auto;
@@ -16,11 +18,12 @@ a.navbar-brand{
     color: white !important;
 }
 
+/* MAIN - CONTENIDO PRINCIPAL */
 .container{
     max-width: 1200px;
     margin: 0 auto;
     margin-top: 10px;
-    /* background-color: blue; */
+   
     
 }
 
@@ -63,10 +66,62 @@ a .delfina{
     margin-top: 25px;
 }
 
+/* FUTBOL */
+
+.contenedorCards{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: white;
+}
+
+
+
+.iconos{
+    max-width: 4rem;
+    margin: 0 auto;
+    display: flex;
+    
+}
+
+.iconosTres{
+    max-width: 4rem;
+    margin: 0 auto;
+    display: flex;
+    
+}
+
+.iconosCuatro{
+    max-width: 4rem;
+    margin: 0 auto;
+    
+    
+}
+
+
+.container-fluid{
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+
+/* FOOTER - SUBCRIBIRSE */
+
 .contenedorFooter{
     background-color: black;
 }
-/* FOOTER - SUBCRIBIRSE */
 
 .contenedorFooter{
     max-width: 1200px;
