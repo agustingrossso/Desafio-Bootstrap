@@ -1,31 +1,32 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
 /* BARRA NAVEGACION - HEADER  */
 
-header{
+header {
     max-width: 1200px;
     margin: 0 auto;
-    
+
 }
 
-a.navbar-brand{
+a.navbar-brand {
     color: white !important;
 }
-.nav-link{
+
+.nav-link {
     color: white !important;
 }
 
 /* MAIN - CONTENIDO PRINCIPAL */
-.carroza{
-    max-width:1200px;
+.carroza {
+    max-width: 1200px;
     margin: 0 auto;
 
 }
 
-.card-group{
+.card-group {
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -33,92 +34,100 @@ a.navbar-brand{
 
 /* FUTBOL */
 
-.contenedorCards{
+.contenedorCards {
     max-width: 1200px;
     margin: 0 auto;
 }
 
-.card{
+.card {
     max-width: 1200px;
     margin: 0 auto;
 }
 
-h2{
+h2 {
     text-shadow: 2px 2px black;
 }
 
-a{
+a {
     text-decoration: none;
     color: black;
 }
 
-a:hover{
+a:hover {
     color: white;
 }
 
 
 
-.container-fluid{
+.container-fluid {
     max-width: 1200px;
     margin: 0 auto;
-    
+
+}
+
+/* BASKET */
+
+/* SUSCRIBIRSE*/
+.accordion {
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 /* FOOTER - SUBCRIBIRSE */
 
-.contenedorFooter{
+.contenedorFooter {
     background-color: black;
 }
 
-.contenedorFooter{
+.contenedorFooter {
     max-width: 1200px;
     margin: 0 auto;
     margin-top: 5px;
 }
 
-.suscribirse{
-   color: white;
-   text-align: center;
+.suscribirse {
+    color: white;
+    text-align: center;
 }
 
-.nombre{
+.nombre {
     max-width: 600px;
     border-radius: 10px;
     margin-top: 10px;
     margin: 0 auto;
     /* margin-left: 300px; */
     display: flex;
-    border-color: rgb(30, 115, 48) ;
+    border-color: rgb(30, 115, 48);
 }
 
-.apellido{
+.apellido {
     max-width: 600px;
     border-radius: 10px;
     margin: 0 auto;
-    border-color: rgb(30, 115, 48) ;
+    border-color: rgb(30, 115, 48);
     margin-top: 10px;
     display: flex;
 }
 
-.email{
-    
+.email {
+
     max-width: 600px;
     margin: 0 auto;
     margin-top: 10px;
     border-radius: 10px;
     margin-bottom: 10px;
-    border-color: rgb(30, 115, 48) ;
+    border-color: rgb(30, 115, 48);
 }
 
-.btn-sub{
+.btn-sub {
     max-width: 600px;
-    margin:0 auto;
+    margin: 0 auto;
     margin-top: 5px;
     display: flex;
     overflow: hidden;
-    
-    
-    
+
+
+
     /* margin-left: 300px; */
     margin-bottom: 20px;
 }
