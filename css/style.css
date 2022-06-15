@@ -89,28 +89,6 @@ a:hover{
 
 
 
-.iconos{
-    max-width: 4rem;
-    margin: 0 auto;
-    display: flex;
-    
-}
-
-.iconosTres{
-    max-width: 4rem;
-    margin: 0 auto;
-    display: flex;
-    
-}
-
-.iconosCuatro{
-    max-width: 4rem;
-    margin: 0 auto;
-    
-    
-}
-
-
 .container-fluid{
     max-width: 1200px;
     margin: 0 auto;
